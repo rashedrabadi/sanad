@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="col-md-12">
+       <table class="table table-bordered table-hover">
+           <thead>
+               <tr>
+                   <th *ngFor="let head of HeadArray" [class.arabic]="language==='ar'">{{head.Head}} </th>
+               </tr>
+           </thead>
+           <tbody>
+               <tr *ngFor="let item of GridArray">
+                  <td  *ngFor="let head of HeadArray" [class.arabic]="language==='ar'">
+                      <div *ngIf="head.FieldName != ''">
+                          {{item[head.FieldName]}}
+                      </div>
+                      <div *ngIf="head.FieldName == ''" class="text-center">
+                          <button class="btn btn-sm btn-primary" (click)="edit(item)">{{"table.edit"| translate}}</button>
+                          <button class="btn btn-sm btn-primary" (click)="delete(item)" style="margin-left: 10px;">{{"table.delete"| translate}}</button>
+                          <button class="btn btn-sm btn-primary" (click)="open(item)" style="margin-left: 10px;">{{"table.open"| translate}}</button>
+                      </div>
+                  </td>
+               </tr>
+           </tbody>
+       </table>
+  </div>
+</div>

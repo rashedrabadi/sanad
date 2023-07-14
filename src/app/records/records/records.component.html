@@ -1,0 +1,22 @@
+<!-- <mat-spinner *ngIf="isLoading"></mat-spinner> -->
+<div class="container">
+  <!-- *ngIf="!isLoading" -->
+  <div class="card" >
+    <div class="card-header bg-primary text-white" [class.arabic]="language==='ar'" translate>
+      {{"all-users.title"}}
+    </div>
+    <div class="card-body" [class.arabic]="language==='ar'">
+      <button mat-raised-button class="add-user-btn" color="accent"
+        (click)="newUser()">{{"all-users.add-user-btn"|translate}}</button>
+      <div class="row">
+        <div class="col-md-12">
+          <app-data-table [HeadArray]="headArray" [GridArray]="usersList" (onEdit)="editUser($event)"
+            (onDelete)="deleteUser($event)"></app-data-table>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <mat-paginator [length]="totalUsers" [pageSize]="usersPerPage" (page)="onChangedPage($event)"
+    *ngIf="users.length> 0"></mat-paginator>
+</div>

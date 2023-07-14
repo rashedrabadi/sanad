@@ -1,0 +1,13 @@
+<mat-toolbar color="primary" [class.arabic]="language === 'ar'">
+  <span class="spacer"></span>
+  <ul>
+    <li [class.arabic]="language === 'ar'">
+      <button mat-button (click)="onChangeLanguage()">{{"header.lang-btn" | translate}}</button>
+      <button mat-button [matMenuTriggerFor]="menu"><mat-icon>person</mat-icon></button>
+    </li>
+  </ul>
+</mat-toolbar>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item (click)="onLogout()" routerLink="/login" translate>
+    {{"header.logout"}}</button>
+</mat-menu>

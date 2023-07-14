@@ -1,0 +1,125 @@
+{
+  "header": {
+    "logout": "Logout",
+    "lang-btn": "العربية"
+  },
+  "validations": {
+    "invalid-name": "Please enter a valid Name.",
+    "invalid-email": "Please enter a valid Email.",
+    "invalid-phone": "Please enter a valid Phone Number.",
+    "invalid-role": "Please select a User Role.",
+    "invalid-title": "Please enter a valid Title",
+    "invalid-description": " Please enter a valid Description.",
+    "invalid-score": " Please enter a valid Score.",
+    "invalid-weight": " Please enter a valid Weight.",
+    "invalid-level": " Please enter a valid Level.",
+    "invalid-order": " Please enter a valid Order.",
+    "invalid-status": " Please enter a valid Status.",
+    "invalid-password": "Please enter a valid Password",
+    "mismatch-password":"Password Mismatch"
+  },
+  "all-users": {
+    "title": "Users List",
+    "add-user-btn": "Add User"
+  },
+  "add-user": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "role": "Role",
+    "add-new-user": "Add New User",
+    "add-user-btn": "Add User",
+    "edit-user": "Update User",
+    "back-to-list": "ٌReturn to users list"
+  },
+  "all-organizations": {
+    "title": "Organizations List",
+    "add-organization-btn": "Add Organization"
+  },
+  "table": {
+    "edit": "Edit",
+    "delete": "Delete",
+    "open": "Open",
+    "confirm": "Confirm"
+  },
+  "content": {
+    "content-header": "Arabyati Programs:",
+    "add-program": "Add Program",
+    "enter-levels": "ُEnter to Levels ",
+    "title": "Title",
+    "description": "Description",
+    "score": "Score",
+    "weight": "Weight",
+    "level": "Level",
+    "order": "Order",
+    "status": "Status"
+  },
+  "add-program": {
+    "add-new-program": "Add New Program",
+    "edit-program": "ُEdit Program",
+    "return-to-programs": "Return to programs",
+    "add-program-btn": "Add Program",
+    "update-program-btn": "Update Program"
+  },
+  "all-levels": {
+    "add-level": "Add New Level",
+    "return-to-programs": "Return to Programs"
+  },
+  "add-level": {
+    "add-new-level": "Add New Level",
+    "edit-level": "ُEdit Level",
+    "return-to-levels": "Return to Levels",
+    "add-level-btn": "Add Level",
+    "update-level-btn": "Update Level",
+    "move-to-another-program": "Move to another program"
+  },
+  "all-units": {
+    "add-unit": "Add New Unit",
+    "return-to-levels": "Return to Levels"
+  },
+  "add-unit": {
+    "add-new-unit": "Add New Unit",
+    "edit-unit": "ُEdit Unit",
+    "return-to-units": "Return to Units",
+    "add-unit-btn": "Add Unit",
+    "update-unit-btn": "Update Unit",
+    "move-to-another-level": "Move to another level"
+  },
+  "all-lessons": {
+    "add-lesson": "Add New Lesson",
+    "return-to-units": "Return to Units"
+  },
+  "add-lesson": {
+    "add-new-lesson": "Add New Lesson",
+    "edit-lesson": "ُEdit Lesson",
+    "return-to-lessons": "Return to Lessons",
+    "add-lesson-btn": "Add Lesson",
+    "update-lesson-btn": "Update Lesson",
+    "move-to-another-unit": "Move to another unit"
+  },
+  "all-exercises": {
+    "add-exercise": "Add New Exercise",
+    "return-to-lessons": "Return to Lessons"
+  },
+  "add-exercise": {
+    "add-new-exercise": "Add New Exercise",
+    "edit-exercise": "ُEdit Exercise",
+    "return-to-exercises": "Return to Exercises",
+    "add-exercise-btn": "Add Exercise",
+    "update-exercise-btn": "Update Exercise",
+    "move-to-another-lesson": "Move to another lesson"
+  },
+  "user-login": {
+    "arabyati-title": "Arabyati",
+    "login": "Login",
+    "forgot-password": "Forgot Password ?",
+    "password": "Password"
+  },
+  "forgot-password": {
+    "forget-password": "Forget Password",
+    "arabyati-dashboard":"Arabyati Dashboard",
+    "send-email":"Send Email",
+    "submit":"Submit"
+  },
+  "reset-password":"Reset Password"
+}

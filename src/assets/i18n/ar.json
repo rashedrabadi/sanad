@@ -1,0 +1,127 @@
+{
+  "header": {
+    "logout": "خروج",
+    "lang-btn": "English"
+  },
+  "validations": {
+    "invalid-name": "يرجى ادخل اسما صحيحاً",
+    "invalid-email": "يرجى إدخال البريد الإلكتروني الصحيح",
+    "invalid-phone": "يرجى إدخال رقم هاتف صالح",
+    "invalid-role": "الرجاء تحديد دور المستخدم",
+    "invalid-title": "الرجاءإدخال عنوان صحيح",
+    "invalid-description": "الرجاء إدخال وصف صحيح",
+    "invalid-score": " الرجاء إدخال علامة صحيحة",
+    "invalid-weight": "الرجاء إدخال علامة كلية صحيحة",
+    "invalid-level": " الرجاء إدخال مرحلة صحيحة",
+    "invalid-order": " الرجاء إدخال ترتيب صحيح",
+    "invalid-status": " الرجاء إدخال حالة صحيحة",
+    "invalid-password":"يرجى إدخال كلمة سر صحيحة",
+    "mismatch-password":"كلمة المرور غير متطابقة"
+  },
+  "all-users": {
+    "title": "قائمة المستخدمين",
+    "add-user-btn": "إضافة مستخدم"
+  },
+  "add-user": {
+    "name": "الاسم",
+    "email": "البريد الإلكتروني ",
+    "phone": "رقم الهاتف",
+    "role": "الدور",
+    "add-new-user": "إضافة مستخدم جديد",
+    "add-user-btn": "إضافة مستخدم",
+    "edit-user": "تعديل المستخدم",
+    "back-to-list": "العودة إلى قائمة المستخدمين"
+  },
+  "all-organizations": {
+    "title": "قائمة المنظمات",
+    "add-organization-btn": "إضافة منظمة"
+  },
+  "table": {
+    "edit": "تعديل",
+    "delete": "حذف",
+    "open": "دخول",
+    "confirm": "تأكيد"
+  },
+  "content": {
+    "content-header": ":برامج عربيتي",
+    "add-program": "إضافة برنامج جديد",
+    "enter-levels": " دخول للمراحل",
+    "title": "العنوان",
+    "description": "الوصف",
+    "score": "العلامة",
+    "weight": "العلامة الكلّية",
+    "level": "المرحلة",
+    "order": "الترتيب",
+    "status": "الحالة"
+  },
+  "add-program": {
+    "add-new-program": "إضافة برنامج جديد",
+    "edit-program": "تعديل البرنامج",
+    "return-to-programs": "العودة للبرامج",
+    "add-program-btn": "إضافة البرنامج",
+    "update-program-btn": "تعديل البرنامج"
+  },
+  "all-levels": {
+    "add-level": "إضافة مرحلة جديدة",
+    "return-to-programs": "العودة للبرامج"
+  },
+  "add-level": {
+    "add-new-level": "إضافة مرحلة جديدة",
+    "edit-level": "تعديل المرحلة",
+    "return-to-levels": "العودة للمراحل",
+    "add-level-btn": "إضافة مرحلة",
+    "update-level-btn": "تعديل المرحلة",
+    "move-to-another-program": "نقل لبرنامج أخر"
+  },
+  "all-units": {
+    "add-unit": "إضافة وحدة جديدة",
+    "return-to-levels": "العودة للمراحل"
+  },
+  "add-unit": {
+    "add-new-unit": "إضافة وحدة جديدة",
+    "edit-unit": "تعديل الوحدة",
+    "return-to-units": "العودة للوٍحَد",
+    "add-unit-btn": "إضافة وحدة",
+    "update-unit-btn": "تعديل الوحدة",
+    "move-to-another-level": "نقل لمرحلة أخرى"
+  },
+  "all-lessons": {
+    "add-lesson": "إضافة درس جديد",
+    "return-to-units": "العودة للوِحَد"
+  },
+  "add-lesson": {
+    "add-new-lesson": "إضافة درس جديد",
+    "edit-lesson": "تعديل الدرس",
+    "return-to-lessons": "العودة للدروس",
+    "add-lesson-btn": "إضافة درس",
+    "update-lesson-btn": "تعديل الدرس",
+    "move-to-another-unit": "نقل لوحدة أخرى"
+  },
+  "all-exercises": {
+    "add-exercise": "إضافة تمرين جديد",
+    "return-to-lessons": "العودة للدروس"
+  },
+  "add-exercise": {
+    "add-new-exercise": "إضافة تمرين جديد",
+    "edit-exercise": "تعديل التمرين",
+    "return-to-exercises": "العودة للتمارين",
+    "add-exercise-btn": "إضافة تمرين",
+    "update-exercise-btn": "تعديل التمرين",
+    "move-to-another-lesson": "نقل لدرس أخر"
+  },
+  "user-login": {
+    "arabyati-title": "عَرَبِّيَتي",
+    "login": "تسجيل الدخول",
+    "forgot-password": "هل نسيت كلمة السر؟",
+    "password": "كلمة السر"
+  },
+  "forgot-password": {
+    "forget-password": "نسيت كلمة المرور",
+    "arabyati-dashboard":"منصة تحكم عَرَبِّيَتي",
+    "send-email":"إرسال البريد الإلكتروني",
+    "submit":"ارسل"
+  },
+  "reset-password":"إعادة تعيين كلمة المرور"
+     
+
+}

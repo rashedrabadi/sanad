@@ -1,0 +1,11 @@
+::ng-deep{
+  .ng-star-inserted {
+    &.arabic {
+      text-align: end;
+    }
+  }
+  .btn-primary{
+    z-index: 100 !important;
+  }
+}
+

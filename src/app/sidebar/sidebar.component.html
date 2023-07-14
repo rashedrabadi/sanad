@@ -1,0 +1,30 @@
+<mat-spinner *ngIf="isLoading"></mat-spinner>
+<app-header class="header-container" *ngIf="!isLoading"></app-header>
+<div *ngIf="!isLoading" class="sidenav" [class.arabic]="language === 'ar'" [ngClass]="collapsed ?
+  'sidenav-collapsed': ''">
+  <div class="logo-container">
+    <div>
+
+    </div>
+    <div>
+
+    </div>
+    <div>
+
+    </div>
+    <button class="logo" (click)="toggleCollapse()">S</button>
+    <div class="logo-text" @fadeInOut *ngIf="collapsed">Sanad</div>
+  </div>
+  <ul class="sidenav-nav" >
+    <li class="sidenav-nav-item" *ngFor="let data of navData">
+      <a class="sidenav-nav-link" [routerLink]="[data.routeLink]"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{exact: true}">
+        <mat-icon class="mat-icon-li">{{data.icon}}</mat-icon>
+        <span class="sidenav-link-text" @fadeInOut *ngIf="collapsed">
+          {{data.label}}
+        </span>
+      </a>
+    </li>
+  </ul>
+</div>

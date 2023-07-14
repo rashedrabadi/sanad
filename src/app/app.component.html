@@ -1,0 +1,7 @@
+<div class="main-container" [class.outt]="!isLoggedIn">
+  <app-sidebar (onToggleSideNav)="onToggleSideNav($event)" *ngIf="!!isLoggedIn" class="app-sidebar-class"></app-sidebar>
+<app-body [class.out]="!isLoggedIn"
+[collapsed]="isSideNavCollapsed"
+[screenWidth]="screenWidth"
+></app-body>
+</div>

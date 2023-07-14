@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap');
+::ng-deep {
+
+  .main-container {
+    font-family: 'Jura', sans-serif;
+    .app-sidebar-class  {
+      display: flex;
+    flex-direction: column;
+    }
+    &.outt {
+
+      background: #f4f7fa;
+    }
+
+    .out {
+      .body {
+        margin: 0 auto;
+      }
+    }
+  }
+}

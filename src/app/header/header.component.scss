@@ -1,0 +1,27 @@
+
+::ng-deep {
+  &.arabic {
+    flex-direction: row-reverse !important;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      &.arabic {
+        display: flex;
+        flex-direction: row-reverse;
+      }
+    }
+  }
+  button {
+    text-decoration: none;
+    color: white;
+  }
+  .title {
+    cursor: pointer;
+  }
+  .spacer {
+    flex: 1 1 auto ;
+  }
+}
