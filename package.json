@@ -24,7 +24,7 @@
     "@ngx-translate/core": "^14.0.0",
     "@ngx-translate/http-loader": "^7.0.0",
     "angular-resize-event": "^3.2.0",
-    "ng-cdbangular": "^1.0.0",
+    "ng-cdbangular": "^1.2.2",
     "ngx-custom-validators": "^11.0.1",
     "ngx-skeleton-loader": "^7.0.0",
     "rxjs": "~7.5.0",
